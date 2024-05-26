@@ -1,10 +1,12 @@
+import Link from "../components/Link";
+import Title from "../components/TItle";
 import RootLayout from "./layout";
 
 export default function HomePage() {
   return (
     <RootLayout>
-      <h1>Home</h1>
-      <a href="/faq">Ir para a FAQ</a>
+      <Title>Alura Cases - Home</Title>
+      <Link href="/faq">Ir para o FAQ</Link>
     </RootLayout>
   );
 }
